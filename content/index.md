@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Let's Learn Insurance Stuff
 ---
  
-The rest of your content lives here. You can use **Markdown** here :)
+Hi, I'm Jonathan, and join me in my learning journey to build an interconnected database of... well, insurance stuff. 
