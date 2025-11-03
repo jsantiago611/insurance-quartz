@@ -1,3 +1,11 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@font-face {
+		font-family: 'National2Condensed';
+		src: url('/static/national-2-condensed-web-bold.woff2') format('woff2');
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
