@@ -9,3 +9,19 @@
 		font-display: swap;
 		text-rendering: optimizeSpeed;
 	  }
+@font-face {
+		font-family: 'GT-National';
+		src: url('/static/GT-America-Standard-Bold.woff2') format('woff2');
+		font-style: bold;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
+@font-face {
+		font-family: 'GT-National';
+		src: url('/static/GT-America-Standard-Regular.woff2') format('woff2');
+		font-style: normal;
+		font-stretch: normal;
+		font-display: swap;
+		text-rendering: optimizeSpeed;
+	  }
