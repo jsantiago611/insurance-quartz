@@ -2,4 +2,8 @@
 title: Agency
 ---
 
-An [[Agency]] relationship is where one person (the [[Agent]]) gets to legally pretend to be another person (the [[Principal]]). In insurance, this means when the person selling you the policy says "you're covered," the insurance company is on the hook for it. It's the legal magic that makes the salesforce actually matter.
+An [[Agency]] is a legal relationship where one party (the [[Agent]]) is authorized to act on behalf of another (the [[Principal]]).
+
+In insurance, this is the magic that lets the whole sales force function. When an [[Agent]] sells you a policy and says "you're covered," they aren't just giving their personal opinion. They are speaking for the insurance company itself. The company is legally bound by the agent's actions. This is why insurers are so careful about who they appoint as an agent—it's like giving someone the keys to the treasury.
+
+It’s the legal fiction that a giant, impersonal corporation can have thousands of people out in the world making binding promises for it.

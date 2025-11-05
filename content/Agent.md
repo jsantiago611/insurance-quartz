@@ -2,4 +2,8 @@
 title: Agent
 ---
 
-An [[Agent]] is someone who can legally bind an insurance company. When they say "you're covered," you're covered. This is different from a [[Broker]], who works for you. The agent works for the company, which is why they can commit the company's money. It's a nice gig if you can get it—you get to spend other people's money.
+An Agent is a person who is legally authorized to act on behalf of an insurance company. They are the person who can officially let you into [[The Pool]].
+
+But the relationship is... nuanced, right? I mean, are they a fiduciary for you, the customer? Or are they a salesperson for the company? The answer is... kind of both? They have a duty to find you appropriate coverage, but they also have a contract with the insurer that pays them a commission. This is a tension. But functionally, they are the storefront. They are the person who can bind coverage, who takes your application, and who explains why you need that weird rider for your jewelry. They are the human interface between you and the vast, impersonal Pool.
+
+See also [[Broker]].

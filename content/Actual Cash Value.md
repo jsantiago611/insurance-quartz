@@ -2,4 +2,8 @@
 title: Actual Cash Value (ACV)
 ---
 
-[[Actual Cash Value]] is the "used" price. It's what you'd get if you sold your five-year-old laptop on eBay, not what you'd pay for a new one at the Apple Store. The math is [[Replacement Cost]] minus [[Depreciation]], which is just a fancy way of saying "we're not paying for a new one, we're paying for the one you had, which was kind of old." It's the insurer-friendly way to value your stuff, and it's why people are always mad that their "perfectly good" ten-year-old roof isn't worth what they think it is.
+[[Actual Cash Value]] is a method for valuing a loss that takes [[Depreciation]] into account. It's "Replacement Cost minus wear and tear."
+
+This is the number that makes insurance customers sad. You think of the value of your 5-year-old laptop as "a laptop." The insurer thinks of it as "a new laptop, minus 5 years of being old." ACV is the insurance equivalent of a car's Kelley Blue Book value—it's what you could have sold the item for right before it was destroyed, not what it costs to get back to where you were.
+
+It exists to enforce the principle of [[Indemnity]]—you shouldn't get a brand new item for an old one you'd already used. Still? It's the source of most claims dissatisfaction.
