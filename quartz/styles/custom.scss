@@ -1,135 +1,146 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Put your custom CSS here!
 @font-face {
-	font-family: 'National2Condensed';
-	src: url('/static/national-2-condensed-web-bold.woff2') format('woff2');
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-
-@font-face {
-	font-family: 'GTAmerica';
-	src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
-	font-style: 700;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-
-@font-face {
-	font-family: 'GTAmerica';
-	src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
-	font-style: 600;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-
-@font-face {
-	font-family: 'GTAmerica';
-	src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
-	font-style: 500;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-	  
-@font-face {
-	font-family: 'GTAmerica';
-	src: url('/static/GTAmericaStandardRegular.woff2') format('woff2');
-	font-style: 400;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-
-@font-face {
-	font-family: 'Haffer';
-	src: url('/static/HafferMedium.woff2') format('woff2');
-	font-style: 400;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-@font-face {
-	font-family: 'Haffer';
-	src: url('/static/HafferMediumItalic.woff2') format('woff2');
-	font-style: 400;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	font-style: italic;
-	}
-@font-face {
-	font-family: 'Haffer';
-	src: url('/static/HafferXHBold.woff2') format('woff2');
-	font-style: 700;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-@font-face {
-	font-family: 'Haffer';
-	src: url('/static/HafferXHBoldItalic.woff2') format('woff2');
-	font-style: 700;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	font-style: italic;
-	}
-
-@font-face {
-	font-family: 'Saans';
-	src: url('/static/SaansRegular.woff2') format('woff2');
-	font-style: 400;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-@font-face {
-	font-family: 'Saans';
-	src: url('/static/SaansRegularItalic.woff2') format('woff2');
-	font-style: 400;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	font-style: italic;
-	}
-@font-face {
-	font-family: 'Saans';
-	src: url('/static/SaansMedium.woff2') format('woff2');
-	font-style: 500;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-@font-face {
-	font-family: 'Saans';
-	src: url('/static/SaansBold.woff2') format('woff2');
-	font-style: 700;
-	font-stretch: normal;
-	font-display: swap;
-	text-rendering: optimizeSpeed;
-	}
-
-:root {
-	--size-step--3: clamp(.875rem, .8462rem + .1439vw, 1rem);
-    --size-step--2: clamp(1rem, .9712rem + .1439vw, 1.125rem);
-    --size-step--1: clamp(1.125rem, 1.0818rem + .2158vw, 1.3125rem);
-    --size-step-0: clamp(1.25rem, 1.1349rem + .5755vw, 1.75rem);
-    --size-step-1: clamp(1.5rem, 1.3273rem + .8633vw, 2.25rem);
-    --size-step-2: clamp(1.75rem, 1.5773rem + .8633vw, 2.5rem);
-    --size-step-3: clamp(2rem, 1.7698rem + 1.1511vw, 3rem);
-    --size-step-4: clamp(2.25rem, 1.7176rem + 2.6619vw, 4.5625rem);
-    --size-step-5: clamp(2.625rem, 1.6754rem + 4.7482vw, 6.75rem);
-    --size-step-6: clamp(3rem, .0504rem + 14.7482vw, 15.8125rem);
-    --size-step-7: clamp(3.8125rem, .0427rem + 18.8489vw, 20.1875rem);
+  font-family: 'National2Condensed';
+  src: url('/static/national-2-condensed-web-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
 }
 
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('/static/GTAmericaStandardBold.woff2') format('woff2');
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'GTAmerica';
+  src: url('/static/GTAmericaStandardRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/static/HafferMedium.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/static/HafferMediumItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/static/HafferXHBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/static/HafferXHBoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/static/SaansRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/static/SaansRegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/static/SaansMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+@font-face {
+  font-family: 'Saans';
+  src: url('/static/SaansBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  text-rendering: optimizeSpeed;
+}
+
+:root {
+  --size-step--3: clamp(.875rem, .8462rem + .1439vw, 1rem);
+  --size-step--2: clamp(1rem, .9712rem + .1439vw, 1.125rem);
+  --size-step--1: clamp(1.125rem, 1.0818rem + .2158vw, 1.3125rem);
+  --size-step-0: clamp(1.25rem, 1.1349rem + .5755vw, 1.75rem);
+  --size-step-1: clamp(1.5rem, 1.3273rem + .8633vw, 2.25rem);
+  --size-step-2: clamp(1.75rem, 1.5773rem + .8633vw, 2.5rem);
+  --size-step-3: clamp(2rem, 1.7698rem + 1.1511vw, 3rem);
+  --size-step-4: clamp(2.25rem, 1.7176rem + 2.6619vw, 4.5625rem);
+  --size-step-5: clamp(2.625rem, 1.6754rem + 4.7482vw, 6.75rem);
+  --size-step-6: clamp(3rem, .0504rem + 14.7482vw, 15.8125rem);
+  --size-step-7: clamp(3.8125rem, .0427rem + 18.8489vw, 20.1875rem);
+}
 
 h1 {
-font-size: var(--size-step-3);
-font-weight: 700;
+  font-size: var(--size-step-3);
+  font-weight: 700;
 }
