@@ -45,6 +45,74 @@
 	text-rendering: optimizeSpeed;
 	}
 
+	@font-face {
+	font-family: 'Haffer';
+	src: url('/static/HafferMedium.woff2') format('woff2');
+	font-style: 400;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	}
+		@font-face {
+	font-family: 'Haffer';
+	src: url('/static/HafferMediumItalic.woff2') format('woff2');
+	font-style: 400;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	font-style: italic;
+	}
+		@font-face {
+	font-family: 'Haffer';
+	src: url('/static/HafferXHBold.woff2') format('woff2');
+	font-style: 700;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	}
+		@font-face {
+	font-family: 'Haffer';
+	src: url('/static/HafferXHBoldItalic.woff2') format('woff2');
+	font-style: 700;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	font-style: italic;
+	}
+
+@font-face {
+	font-family: 'Saans';
+	src: url('/static/SaansRegular.woff2') format('woff2');
+	font-style: 400;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	}
+	@font-face {
+	font-family: 'Saans';
+	src: url('/static/SaansRegularItalic.woff2') format('woff2');
+	font-style: 400;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	font-style: italic;
+	}
+	@font-face {
+	font-family: 'Saans';
+	src: url('/static/SaansMedium.woff2') format('woff2');
+	font-style: 500;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	}
+		@font-face {
+	font-family: 'Saans';
+	src: url('/static/SaansBold.woff2') format('woff2');
+	font-style: 700;
+	font-stretch: normal;
+	font-display: swap;
+	text-rendering: optimizeSpeed;
+	}
 
 :root {
 	--size-step--3: clamp(.875rem, .8462rem + .1439vw, 1rem);
