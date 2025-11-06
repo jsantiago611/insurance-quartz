@@ -143,13 +143,17 @@
     --leading-compact: 1.25;
     --leading-standard: 1.5;
     --leading-loose: 1.7;
+    --kerning: normal;
+    --kerning-loose: .05ch;
+    --kerning-tight: -.04ch;
+    --kerning-caps: .1ch;
 }
 
 .article-title {
     margin: 2rem 0 0;
     line-height: var(--leading-fine);
     font-size: var(--size-step-5);
-    letter-spacing: -.04ch;
+    letter-spacing: var(--kerning-tight);
 }
 
 body {
@@ -163,4 +167,29 @@ tbody, li, p {
 .page>#quartz-body .center>article {
     grid-area: grid-center;
     font-size: var(--size-step-1);
+}
+
+.content-meta {
+    color: var(--darkgray);
+    margin-top: 0;
+    font-size: var(--size-step-0);
+}
+
+.backlinks>h3 {
+    margin: 0;
+    font-size: var(--size-step-1);
+    letter-spacing: var(--kerning-tight);
+}
+
+.graph>h3 {
+    margin: 0;
+    font-size: var(--size-step-1);
+    letter-spacing: var(--kerning-tight);
+}
+
+.page-title {
+    font-size: var(--size-step-2);
+    font-family: var(--titleFont);
+    margin: 0;
+    letter-spacing: var(--kerning-tight);
 }
